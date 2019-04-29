@@ -1,7 +1,10 @@
 #!/usr/bin/env pybricks-micropython
 from pybricks import ev3brick as brick
-from pybricks.ev3devices import Motor
-from pybricks.parameters import Port, Color
+from pybricks.ev3devices import (Motor, TouchSensor, ColorSensor,
+                                 InfraredSensor, UltrasonicSensor, GyroSensor)
+from pybricks.parameters import (Port, Stop, Direction, Button, Color,
+                                 SoundFile, ImageFile, Align)
+from pybricks.tools import print, wait, StopWatch
 from pybricks.robotics import DriveBase
 
 
@@ -17,7 +20,7 @@ color_Sensor = ColorSensor(Port.S1)
 def motor_start():
     robot.drive(100,0)
 
-def motor_start():
+def motor_stop():
     robot.stop()
 
 def scan():
