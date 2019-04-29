@@ -5,8 +5,8 @@ from pybricks.parameters import Port, Color
 from pybricks.robotics import DriveBase
 
 
-left_motor = Motor(Port.B)
-right_motor = Motor(Port.C)
+left_motor = Motor(Port.A)
+right_motor = Motor(Port.B)
 wheel_diameter = 56
 axle_track = 114
 
