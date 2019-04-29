@@ -21,7 +21,7 @@ def motor_start():
     robot.stop()
 
 def scan():
-    while Color.RED != color_Sensor.color()):
+    while Color.RED != color_Sensor.color():
         wait(10)
         
 def turnaround():
