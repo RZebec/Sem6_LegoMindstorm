@@ -17,9 +17,13 @@ wheel_diameter = 56
 axle_track = 114
 
 # Configuration regarding the behavior of the robot:
-speed = 130 #
+# speed of the robot:
+speed = 130
+# maximum deviation in the drive-direction:
 max_angle = 3
+# duration for the adjustment process:
 adjustment_time = 350
+# will be dynamically set during the application start
 max_distance = 400
 
 # Global variables:
