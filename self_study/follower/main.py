@@ -8,7 +8,7 @@ from pybricks.tools import print, wait, StopWatch
 from pybricks.robotics import DriveBase
 
 
-# Configuration, which depends on the build roboter:
+# Configuration, which depends on the build of the roboter:
 left_motor = Motor(Port.A)
 right_motor = Motor(Port.B)
 sensor = UltrasonicSensor(Port.S1)
@@ -23,7 +23,7 @@ speed = 130
 max_angle = 3
 # duration for the adjustment process:
 adjustment_time = 350
-# will be dynamically set during the application start
+# will be dynamically set during the application start:
 max_distance = 400
 
 # Global variables:
